@@ -10,9 +10,9 @@
 }
 .logoholder{
 
-	height: 80px;
-	width: 80px;
-	margin-left: 5px;
+	height: 100px;
+	width: 250px;
+
 }
 .logoholder img{
 	height: 100%;
@@ -21,7 +21,7 @@
 }
 .corner{
 	height: 800px;
-	width: 200px;
+	width: 130px;
 	/*background-color: yellow;*/
 	/*border: 2px solid ;*/
 	margin: 5px;
@@ -61,19 +61,31 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-top: 50px;
 	
 	
 }
+.recom{
+	padding: 10px;
+	font-size: 25px;
+}
+
 .bux{
-	height: 300px;
-	width: 400px;
+	height: 250px;
+	width: 280px;
 	/*background-color: yellow;*/
 	margin: 10px;
+	
+}
+
+.recom{
+	float: left;
+
 }
 .first{
 	/*background-color: blue;*/
-	height: 220px;
-	width: 400px;
+	height: 150px;
+	width: 280px;
 }
 .first img{
 	height: 100%;
@@ -84,15 +96,16 @@
 .txt{
 	margin: 3px;
 	/*border: 1px solid;*/
-	height: 80px;
+	height: 100px;
+	padding: 2px;
 
 }
 
 .smallpic{
 	/*background-color:red;*/
 	/*border: 1px solid;*/
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	float: left;
 }
 
@@ -106,5 +119,6 @@
 
 .tittle{
 	float: left;
+	padding: 2px;
  	
 }
